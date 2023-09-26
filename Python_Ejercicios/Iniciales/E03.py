@@ -6,7 +6,7 @@ al número de intentos que ha necesitado el usuario."""
 
 import random
 
-numero_intentos = 0
+numero_intentos = 1
 numero_imaginado = random.randint(0,20)
 intento= 0
 
