@@ -17,5 +17,5 @@ print(str(x) + "*" + str(y) +"=  " + str(x * y))
 if y==0:
     print ("Infinito")
 else:
-    print(str(x) + "/" + str(y) +"=  " +str((float)(x/y)))    
+    print(str(x) + "/" + str(y) +"=  " +str((x/y)))    
     print(str(x) + "%" + str(y) +"=  " +str(x % y))
