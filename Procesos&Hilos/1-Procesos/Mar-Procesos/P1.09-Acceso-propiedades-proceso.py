@@ -30,4 +30,3 @@ else:
 
 #prioridad después del cambio
 print (ProcesoActual().nice())
-a = input()

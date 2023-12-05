@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
 
 """
-La cola se utiliza para recopilar resultados de los procesos hijos 
+La cola se utiliza para recopilar resultados de los procesos 
 y permitir al proceso principal acceder a esos resultados una vez 
 que los procesos hayan terminado.
 """

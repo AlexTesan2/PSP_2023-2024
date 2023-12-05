@@ -13,22 +13,3 @@ if __name__ == '__main__':
         Process(target=funcion, args=(lock, num)).start()
 
 #Lock : Para asegurarse de que solo un proceso pueda ejecutar la sección crítica del código a la vez.
-
-
-
-
-
-
-
-
-
-
-
-"""
-def funcion(num):
-    print ('hello world', num)
-
-if __name__ == '__main__':
-    for num in range(100):
-        Process(target=funcion, args=(num,)).start()
-"""

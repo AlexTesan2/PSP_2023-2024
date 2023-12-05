@@ -27,3 +27,6 @@ padre()
 
 # crea un nuevo proceso duplicando el proceso actual. Después de llamar a fork(),
 # hay dos procesos idénticos que se están ejecutando, el proceso padre y el proceso hijo.
+#newpid == 0 se utiliza para verificar si el código se está ejecutando en el proceso hijo.
+#En Python, cuando se realiza un fork, el proceso hijo devuelve 0, mientras que el proceso
+#padre obtiene el ID del nuevo proceso hijo. 

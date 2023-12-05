@@ -13,9 +13,7 @@ for proc in psutil.process_iter():    # Itera sobre todos los procesos en ejecuc
       # Obtener el nombre de usuario del propietario del proceso
       print(proc.username())
       print("Eliminando el proceso: ", nombreProceso , ' ::: ', PID)
-
-      # Eliminar el proceso
-      proc.kill()    
+      proc.kill()    # Eliminar el proceso
   except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
     print ("error")
 
