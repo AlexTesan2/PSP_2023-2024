@@ -1,0 +1,10 @@
+{
+"smtpPort" : 1025,
+"ftpPort" : 21,
+"ftpUser" : "admin",
+"ftpPassword" : "preguntaraalguien",
+"sshPort" : 2223,
+"sshUser" : "file",
+"sshPassword" : "file2",
+"msg" : "127.0.0.1:8081"
+}
